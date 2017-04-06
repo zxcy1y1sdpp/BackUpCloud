@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlue">#3884E2</color>
+    <color name="colorBlueText">#6096DA</color>
+    <color name="colorLine">#B9CEE8</color>
+    <color name="colorGreen">#8EC21F</color>
+    <color name="colorGrayLine">#f4f4f4</color>
+    <color name="colorGrayLight">#f6f6f6</color>
+    <color name="rippelColor">#f2e3e3e3</color>
+</resources>

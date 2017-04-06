@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_camera"
+            android:icon="@drawable/user_safety"
+            android:title="手机资料保护" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/user_contact"
+            android:title="通讯录管理" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/user_image"
+            android:title="照片备份" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/user_sync"
+            android:title="短信和通话记录备份" />
+        <item
+            android:icon="@drawable/user_search"
+            android:title="号码找回" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/user_plane"
+            android:title="秒传" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/user_sitting"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/user_feelback"
+                android:title="我要反馈" />
+        </menu>
+    </item>
+
+</menu>

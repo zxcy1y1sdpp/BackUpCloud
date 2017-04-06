@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="145dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.sunny.backupcloud.view.RippleView
+                android:id="@+id/rl_user_safety"
+                rv_centered="true"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/user_safety_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/user_safety" />
+
+                <TextView
+                    android:id="@+id/user_safety_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_safety_icon"
+                    android:text="手机资料保护"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_safety_icon"
+                    android:background="@color/colorGrayLine" />
+
+            </com.example.sunny.backupcloud.view.RippleView>
+
+            <com.example.sunny.backupcloud.view.RippleView
+                android:id="@+id/rl_user_contact"
+                rv_centered="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/rl_user_safety"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/user_contact_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/user_contact" />
+
+                <TextView
+                    android:id="@+id/user_contact_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_contact_icon"
+                    android:text="通讯录恢复"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_contact_icon"
+                    android:background="@color/colorGrayLine" />
+
+            </com.example.sunny.backupcloud.view.RippleView>
+
+            <com.example.sunny.backupcloud.view.RippleView
+                android:id="@+id/rl_user_image"
+                rv_centered="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/rl_user_contact"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/user_image_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/user_image" />
+
+                <TextView
+                    android:id="@+id/user_image_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_image_icon"
+                    android:text="照片备份"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_image_icon"
+                    android:background="@color/colorGrayLine" />
+
+            </com.example.sunny.backupcloud.view.RippleView>
+
+            <com.example.sunny.backupcloud.view.RippleView
+                android:id="@+id/rl_user_sync"
+                rv_centered="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/rl_user_image"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/user_sync_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/user_sync" />
+
+                <TextView
+                    android:id="@+id/user_sync_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_sync_icon"
+                    android:text="短信和通话记录恢复"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_sync_icon"
+                    android:background="@color/colorGrayLine" />
+
+            </com.example.sunny.backupcloud.view.RippleView>
+
+            <com.example.sunny.backupcloud.view.RippleView
+                android:id="@+id/rl_user_search"
+                rv_centered="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/rl_user_sync"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/user_search_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/user_search" />
+
+                <TextView
+                    android:id="@+id/user_search_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_search_icon"
+                    android:text="号码找回"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </com.example.sunny.backupcloud.view.RippleView>
+
+            <View
+                android:id="@+id/view_01"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/colorGrayLight" />
+
+            <com.example.sunny.backupcloud.view.RippleView
+                android:id="@+id/rl_user_plane"
+                rv_centered="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/view_01"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/user_plane_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/user_plane" />
+
+                <TextView
+                    android:id="@+id/user_plane_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_plane_icon"
+                    android:text="快传"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </com.example.sunny.backupcloud.view.RippleView>
+
+            <View
+                android:id="@+id/view_02"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/colorGrayLight" />
+
+            <com.example.sunny.backupcloud.view.RippleView
+                android:id="@+id/rl_user_sitting"
+                rv_centered="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/view_02"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/user_sitting_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/user_sitting" />
+
+                <TextView
+                    android:id="@+id/user_sitting_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_sitting_icon"
+                    android:text="设置"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_sitting_icon"
+                    android:background="@color/colorGrayLine" />
+
+            </com.example.sunny.backupcloud.view.RippleView>
+
+            <com.example.sunny.backupcloud.view.RippleView
+                android:id="@+id/rl_user_feelback"
+                rv_centered="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/rl_user_sitting"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp">
+
+                <ImageView
+                    android:id="@+id/user_feelback_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/user_feelback" />
+
+                <TextView
+                    android:id="@+id/user_feelback_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/user_feelback_icon"
+                    android:text="我要反馈"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </com.example.sunny.backupcloud.view.RippleView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorGrayLine"
+        android:gravity="center"
+        android:paddingBottom="6dp"
+        android:paddingTop="4dp"
+        android:text="请用电脑登录ic.qq.com管理网络通讯录"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="11sp" />
+</RelativeLayout>
